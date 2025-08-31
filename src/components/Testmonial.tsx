@@ -33,7 +33,7 @@ const Testmonial = () => {
           ))}
         </div>
       </div>
-      <div className="space-y-4 mt-12">
+      <div className="space-y-4 mt-12" id="FAQ">
         <h1 className="md:text-4xl text-2xl font-bold">Frequently Asked Questions</h1>
         <div className="border rounded-lg border-zinc-300/50 p-4 bg-purple-200/40">
           {FAQContent.map((item, index) => (

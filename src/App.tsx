@@ -9,7 +9,7 @@ import WhyMinderyKids from "./components/WhyMinderyKids";
 
 const App = () => {
   return (
-    <div className="max-w-5xl mx-auto p-4">
+    <div className="max-w-5xl mx-auto p-8">
       <Navbar />
       <Hero />
       <WhyMinderyKids />

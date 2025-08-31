@@ -2,7 +2,7 @@ import { HeroBoxContent, HeroImageAbove } from "../types/data";
 
 const Hero = () => {
   return (
-    <main className="mt-[4rem] p-4">
+    <main className="mt-[4rem]">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
         <div className="mt-[2rem]">
           <div className="rounded-lg bg-purple-300/50 text-purple-800/90 w-fit font-bold px-1 py-1 text-sm">

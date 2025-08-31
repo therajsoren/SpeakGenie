@@ -8,11 +8,11 @@ const Navbar = () => {
         </div>
         <div className="flex justify-between items-center gap-4 text-purple-800/70 font-bold">
           <div className="space-x-4 md:block hidden">
-            <a href="">Why</a>
-            <a href="">Programs</a>
-            <a href="">Features</a>
-            <a href="">For Parents</a>
-            <a href="">FAQ</a>
+            <a href="#why">Why</a>
+            <a href="#Program">Programs</a>
+            <a href="#Features">Features</a>
+            <a href="#Parents">For Parents</a>
+            <a href="#FAQ">FAQ</a>
           </div>
           <button className="bg-purple-800/70 rounded-lg p-1 px-2 text-white font-medium">
             Start Free

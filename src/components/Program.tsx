@@ -6,7 +6,7 @@ import {
 
 const Program = () => {
   return (
-    <div className="mb-[4rem] space-y-2">
+    <div className="mb-[4rem] space-y-2" id="Program">
       <div className="space-y-1">
         <h1 className="text-2xl font-bold">Programs for Every Age</h1>
         <p className="text-sm pb-4">
@@ -63,7 +63,7 @@ const Program = () => {
         </div>
       </div>
 
-      <div className="space-y-2 mt-[2rem]">
+      <div className="space-y-2 mt-[2rem]" id="Features">
         <h1 className="text-lg md:text-xl font-bold mt-4">
           Why Choose Mindery Kids Over Others?
         </h1>

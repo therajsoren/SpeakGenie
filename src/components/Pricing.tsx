@@ -43,7 +43,7 @@ const Pricing = () => {
           </div>
         ))}
       </div>
-      <div className=" bg-fuchsia-100/40 p-6 py-4">
+      <div className=" bg-fuchsia-100/40 p-6 py-4 mt-[4rem] mb-[4rem]" id="Parents">
         <h1 className="md:text-4xl text-2xl font-bold">
           {ParentAndTeacherHub.title}
         </h1>

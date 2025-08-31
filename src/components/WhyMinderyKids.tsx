@@ -2,7 +2,7 @@ import { MinderyKids } from "../types/data";
 
 const WhyMinderyKids = () => {
   return (
-    <div className="mt-[2rem] p-4">
+    <div className="mt-[2rem] mb-[4rem]" id="why">
       <h1 className="md:text-4xl text-2xl font-bold pb-4">Why Mindery Kids?</h1>
       <p className="max-w-2xl text-base font-normal mb-4">
         Children learn best through play and stories. Our sessions blend gentle
