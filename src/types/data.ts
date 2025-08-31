@@ -193,7 +193,7 @@ export const WhyChooseMindery: WhyChooseProps[] = [
 
 export const ProgramContent: ProgramProps[] = [
   {
-    picture: "",
+    picture: "https://images.unsplash.com/photo-1625395694544-079d163b769b?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     heading: "Little Explorers (4-6)",
     desc: "Three to five-minute stories with animal friends that teach belly-breathing, noticing sounds, and gentle stretching.",
     menu: [
@@ -212,7 +212,7 @@ export const ProgramContent: ProgramProps[] = [
     ],
   },
   {
-    picture: "",
+    picture: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21pbGluZyUyMGNoaWxkcmVufGVufDB8fDB8fHwy",
     heading: "Brave Thinkers (7-10)",
     desc: "Mindset stories, focus timers, and kindness practices that build confidence and classroom readiness.",
     menu: [
@@ -231,7 +231,7 @@ export const ProgramContent: ProgramProps[] = [
     ],
   },
   {
-    picture: "",
+    picture: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMGNoaWxkcmVufGVufDB8fDB8fHwy",
     heading: "Calm & Curious (11-14)",
     desc: "Longer meditations, reframing thoughts, and sleep stories for deeper rest and emotional balance.",
     menu: [
