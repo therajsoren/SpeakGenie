@@ -250,3 +250,32 @@ export const ProgramContent: ProgramProps[] = [
     ],
   },
 ];
+
+
+export const FAQContent: { question: string; answer: string }[] = [
+  {
+    question: "Is Mindery Kids safe for children?",
+    answer:
+      "Yes! Mindery Kids is 100% ad-free and designed specifically for ages 4–14 in a secure environment.",
+  },
+  {
+    question: "Do I need to meditate with my child?",
+    answer:
+      "Not at all. The app is child-friendly and guided, but many parents enjoy listening along with their kids.",
+  },
+  {
+    question: "Can teachers use it in the classroom?",
+    answer:
+      "Absolutely! There are short breathing games and guided activities designed for group use in schools.",
+  },
+  {
+    question: "Do you offer content in multiple languages?",
+    answer:
+      "Currently, Mindery Kids is available in English, with plans to expand to other languages soon.",
+  },
+  {
+    question: "How long are the meditations?",
+    answer:
+      "Most meditations are between 3–8 minutes, keeping them short and engaging for children.",
+  },
+];

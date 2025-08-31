@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <div className="rounded-lg p-2 space-y-2 bg-purple-200/40">
+    <div className="rounded-lg p-2 space-y-2 bg-purple-200/40 mt-[4rem] mb-[3rem]">
       <h1 className="text-2xl font-bold">Start Your Child's Mindfulness Journey</h1>
 
       <p className="text-base">
