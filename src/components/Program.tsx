@@ -27,13 +27,13 @@ const Program = () => {
               alt="image"
               className="w-120 h-full rounded-2xl object-cover"
             />
-            <div className="space-y-2">
+            <div className="space-y-2 lg:w-full w-full sm:max-w-lg sm:mx-auto sm:px-4">
               <h1 className="font-bold">{item.heading}</h1>
               <p className="text-sm">{item.desc}</p>
 
               <ul className="flex gap-4 mt-2">
                 {item.menu.map((item, index) => (
-                  <li key={index} className="font-bold">
+                  <li key={index} className="font-bold md:text-base text-sm">
                     <span>{item.icon}</span>
                     {item.title}
                   </li>
@@ -45,7 +45,9 @@ const Program = () => {
       </div>
 
       <div className="space-y-4">
-        <h1 className="text-2xl font-bold">Build for Kids, Loved by Parents</h1>
+        <h1 className="md:text-2xl text-lg font-bold">
+          Build for Kids, Loved by Parents
+        </h1>
 
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {ProgramFeatures.map((item, index) => (
@@ -61,11 +63,11 @@ const Program = () => {
         </div>
       </div>
 
-      <div className="space-y-2">
-        <h1 className="text-lg font-bold mt-4">
+      <div className="space-y-2 mt-[2rem]">
+        <h1 className="text-lg md:text-xl font-bold mt-4">
           Why Choose Mindery Kids Over Others?
         </h1>
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between md:text-base text-xs">
           <table>
             <thead className="bg-fuchsia-100/40">
               <tr>

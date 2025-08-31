@@ -15,7 +15,7 @@ const Testmonial = () => {
   return (
     <div className="mt-[2rem] mb-4">
       <div className="space-y-4">
-        <h1 className="text-4xl font-bold">What Families Say</h1>
+        <h1 className="md:text-4xl text-2xl font-bold">What Families Say</h1>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
           {TestmonialContent.map((item, index) => (
             <div
@@ -34,8 +34,8 @@ const Testmonial = () => {
         </div>
       </div>
       <div className="space-y-4 mt-12">
-        <h1 className="text-4xl font-bold">Frequently Asked Questions</h1>
-        <div className="border rounded-lg border-zinc-300/50 p-4">
+        <h1 className="md:text-4xl text-2xl font-bold">Frequently Asked Questions</h1>
+        <div className="border rounded-lg border-zinc-300/50 p-4 bg-purple-200/40">
           {FAQContent.map((item, index) => (
             <div key={index}>
               <button onClick={() => toggleFAQ(index)}
@@ -43,7 +43,7 @@ const Testmonial = () => {
                 {item.question}
                 <span className="text-xl">{openIndex === index ? "-" : "+"}</span>
               </button>
-              {openIndex === index && <p className="px-4 py-3">{item.answer}</p>}
+              {openIndex === index && <p className="px-4 py-3 border-t border-t-zinc-300/50">{item.answer}</p>}
             </div>
           ))}
         </div>

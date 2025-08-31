@@ -55,3 +55,8 @@ export interface ProgramProps {
   desc: string;
   menu: Menu[];
 }
+
+export interface HeroProps {
+  heading: string;
+  list: Menu[];
+}
